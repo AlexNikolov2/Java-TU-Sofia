@@ -1,13 +1,5 @@
 public class ArrayWithElements{
     public static void main(String[] args) {
-        int[] results = findSums();
-
-        System.out.println("Сума: " + results[0]);
-        System.out.println("Четни: " + results[1]);
-        System.out.println("Нечетни: " + results[2]);
-    }
-
-    public static int[] findSums(){
         int[] arr = new int[5];
         for(int i = 0; i < arr.length; i++) {
             arr[i] = i + 1; 
@@ -33,7 +25,6 @@ public class ArrayWithElements{
                 oddSum += arr[i];
             }
         }
-
-        return new int[]{sum, evenSum, oddSum};
+        System.out.printf("Сума: %d, Четни: %d, Нечетни: %d%n", sum, evenSum, oddSum);
     }
 }
