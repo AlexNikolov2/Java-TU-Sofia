@@ -47,3 +47,5 @@
 - Domain
 
         DNS - Domain Name Server, maps domain name to IP address.
+
+## LECTURE TOPIC: Threads and Multi-threaded Programming
