@@ -27,9 +27,10 @@
         Physical address of the machine
         Logical address - the port/app that uses the port
 
-- 7 Layers Model
+- 7 Layers / OSI Model
 
   - Application Layer
+  - Presentation Layer
   - Session Layer
   - UDP () - no confirmation
   - TCP (Transfer Control Protocol) - works with confirmation
@@ -40,3 +41,9 @@
 - WAN port
 
   -ISP (Internet Service Providider)
+
+- Network v Host Address
+
+- Domain
+
+        DNS - Domain Name Server, maps domain name to IP address.
