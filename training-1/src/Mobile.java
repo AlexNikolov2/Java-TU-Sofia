@@ -4,7 +4,7 @@ public class Mobile {
     private String phoneNumber;
     ArrayList<Contact> contacts;
 
-    public Mobile(String phoneNumber, ArrayList<Contact> contacts) {
+    public Mobile(String phoneNumber) {
         this.phoneNumber = phoneNumber;
         this.contacts = new ArrayList<Contact>();
     }
