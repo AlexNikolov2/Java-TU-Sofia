@@ -1,3 +1,4 @@
 public enum Status {
-    OK, ERROR
+    OK, 
+    ERROR
 }

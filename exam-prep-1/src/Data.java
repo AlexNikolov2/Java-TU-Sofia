@@ -1,3 +1,4 @@
 public enum Data {
-    ACCOUNT_NUMBER, ACCOUNT
+    ACCOUNT_NUMBER,
+    ACCOUNT
 }
