@@ -9,6 +9,14 @@ public class Account {
         this.accountNumber = accountNumber;
     }
 
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+    public String getPin(){
+        return pin;
+    }
+
     public int getBalance(){
         return balance;
     }
@@ -17,9 +25,13 @@ public class Account {
             return balance += amount;
     }
 
+    public int withdraw(int amount){
+        return balance -= amount;
+    }
+
     public boolean checkPin(String testPin){
         return pin == testPin;
     }
 
-    
+
 }
